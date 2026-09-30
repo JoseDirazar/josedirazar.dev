@@ -1,0 +1,103 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Bienvenido a Mi Portafolio",
+    "subtitle": "Desarrollador Full Stack",
+    "greeting": "Hola, soy Jose.",
+    "role": "Desarrollador Full Stack",
+    "status": "actualmente manejando mi propio negocio freelance",
+    "recent": "Anteriormente trabajé en",
+    "building": "y ahora construyo",
+    "sites": "apps web y móviles",
+    "focus": "para clientes a través de mi empresa",
+    "mobile": "ForgeBytes Lab"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Soy un desarrollador apasionado con experiencia en desarrollo web.",
+    "education": "Después de estudiar 4 años",
+    "accounting": "Contabilidad en UNICEN",
+    "passion": "decidí perseguir mi pasión por la programación y me inscribí en un bootcamp de programación aprendiendo las tendencias actuales del mercado para desarrollar",
+    "fullstack": "aplicaciones full stack",
+    "favorite": "Mi parte favorita de la programación",
+    "problem": "es el aspecto de resolución de problemas. Me",
+    "love": "encanta",
+    "feeling": "la sensación de finalmente encontrar una solución a un problema y aprender más cada día. Mi stack principal es",
+    "frontend": "React y Next.js",
+    "backend": "Nest.js",
+    "rust": "También estoy familiarizado con Rust y construyo contratos inteligentes en la red Stellar.",
+    "notCoding": "Cuando no estoy programando",
+    "enjoy": "disfruto investigando nuevas tecnologías y manteniéndome actualizado en la",
+    "tech": "escena tecnológica",
+    "scene": ". Actualmente estoy aprendiendo Bevy: un nuevo motor de juegos escrito en Rust, y aprendiendo a construir juegos. Por favor revisa la siguiente sección",
+    "nextSection": "👇"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "view": "Ver Proyecto"
+  },
+  "spaceinvaders": {
+    "title": "Juego Space Invaders",
+    "instructions": "Usa A y D para moverte y espacio para disparar",
+    "loading": "Cargando juego...",
+    "subtitle": "Mi primer proyecto de videojuego",
+    "description": "Este tutorial me enseñó lo básico de Bevy, desde cómo configurar un proyecto hasta utilizar el sistema ECS (Entity Component System), donde las entidades se relacionan con componentes y se aplica la lógica del juego. Aprendí a mover al jugador y a los enemigos, renderizar proyectiles y gestionar las colisiones entre ellos. Fue un excelente proyecto para comenzar a familiarizarme con Bevy.",
+    "visitSecond": "Te invito a que visites mi segundo",
+    "project": "proyecto"
+  },
+  "platformer": {
+    "title": "Juego Plataformas",
+    "subtitle": "Una promesa de videojuego",
+    "instructions": "Usa las teclas de flecha para moverte, ESPACIO para saltar, Z para ataque ligero y V para ataque pesado",
+    "description": "Luego de aprender lo básico con Bevy, me surgieron las ganas de crear algo más atractivo, algo que realmente diera ganas de jugar y me permitiera aprender cómo hacer un juego que emocione, como aquellos que jugaba de chico. Comencé con lo que ya sabía: renderizar un sprite en pantalla y aplicar lo aprendido en mi primer proyecto para mover al jugador, detectar colisiones y hacer que pudiera desplazarse por un mapa. Al principio fue abrumador saber qué camino seguir para avanzar con las funcionalidades del juego, pero de a poco fueron surgiendo prioridades, como animar al personaje utilizando atlas de texturas, iterar sobre los sprites y mostrarlos en pantalla de forma animada.\n\nMás adelante, incorporé un sistema de físicas para simular la gravedad y asegurar que las entidades del mapa se comportaran como esperaba. Una vez construida esa base sólida, empecé a agregar funcionalidades esenciales para un juego básico: el enemigo. Implementarlo no fue demasiado difícil, pero me di cuenta de que no tenía mucho sentido tener un jugador y un enemigo si no podían atacarse. Así fue como integré un sistema de colisiones, vida y daño, lo que me permitió profundizar mucho más en Bevy y Rust.\n\nTodavía queda mucho por hacer para lograr un juego interesante y divertido, pero creo que, como demo, es un buen ejemplo de mi progreso en el aprendizaje del desarrollo de videojuegos.",
+    "visitSecond": "Te invito a que visites mi segundo",
+    "project": "proyecto"
+  },
+  "games": {
+    "title": "Mis Juegos",
+    "view": "Jugar",
+    "link": "Hechale un vistazo!",
+    "welcome": "Bienvenido a mi portfolio de videojuegos",
+    "description": "Dale un vistazo a mi recorrido en el desarrollo de videojuegos con Bevy y Rust.",
+    "framework": "como framework y motor de videojuegos. Lo cual fue un interesante punto de entrada para aprender tambien sobre"
+  },
+  "contact": {
+    "title": "Contáctame",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "direct": "Contáctame directamente a",
+    "or": "o a través de este formulario",
+    "success": "¡Correo enviado exitosamente!",
+    "error": "Error al enviar el correo",
+    "sending": "Enviando..."
+  },
+  "experience": {
+    "title": "Mi experiencia",
+    "view": "Enlace",
+    "showMore": "Ver más",
+    "showLess": "Ver menos"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "about": "Sobre este sitio web:",
+    "built": "construido con React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, alojamiento en Vercel."
+  },
+
+  "skills": {
+    "sectionTitle": "Mis Habilidades",
+    "langueges": "Lenguajes de programación",
+    "backend": "Tecnologias del lado del servidor",
+    "frontend": "Tecnologias del lado del cliente",
+    "database": "Base de datos",
+    "devops": "Tecnologias para despliegue",
+    "testing": "Technologies de prueba",
+    "integrations": "Integraciones de terceros"
+  }
+}

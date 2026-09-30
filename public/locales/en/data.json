@@ -1,0 +1,86 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "experiences": {
+    "deaca": {
+      "title": "deacá",
+      "location": "Olavarría, ARG",
+      "date": "September 2025 – August 2026",
+      "description": "End-to-end development and implementation of an interactive web platform centralizing local commerce, tourism and events in Olavarría. Modern interactive guide to discover local products and services as well as tourist information, events and places to visit in the city. Stack: React, NestJS, PostgreSQL, Docker. Integrations: MercadoPago (Checkout/Payments), Google Maps Platform (Maps, Places, Geocoding), Google OAuth. DevTools & AI Workflow: OpenCode with dedicated database persistence for context/conversations, autonomous agents and custom skills. Responsibilities & achievements: Full-Stack & UX/UI — designed and implemented the React interface and NestJS service architecture with a smooth, intuitive navigation flow; API & Payments Integration — advanced geolocation and seamless MercadoPago integration for in-platform transactions; AI-optimized workflows — configured advanced OpenCode pipelines with dedicated DB to accelerate the dev cycle via agents and automation; Infrastructure & Quality — Dockerized deployments to homogenize environments and ensure stability through automated testing and staging."
+    },
+    "forgebytes": {
+      "title": "ForgeBytes Lab",
+      "location": "Buenos Aires, ARG",
+      "description": "Freelance Full Stack Developer (Founder). I design, develop, and deploy end-to-end web and mobile applications using React, NestJS, PostgreSQL, and Docker. I manage self-hosted infrastructure on VPS, configuring Linux, SSH, Nginx, and Docker-based CI/CD pipelines. I implement cybersecurity best practices and have adopted Coolify for streamlined operations. I also implement local AI models to provide modern chatbot solutions for client applications.",
+      "date": "December 2025 – Present"
+    },
+    "biggertech": {
+      "title": "Bigger",
+      "location": "Remote, Australia",
+      "description": "Developed and maintained production systems using React, NestJS, MySQL, and TypeScript. Built cross-platform mobile applications with React Native + Expo for Android and iOS, acting as the sole owner of the iOS build and release process. Integrated third-party services such as Stripe, Cybrid, AWS Cognito, AWS S3, and Auth0. Worked with hexagonal architecture and contributed to smart contract development using Rust and Soroban for the Stellar Network.",
+      "date": "December 2023 – November 2025"
+    },
+    "mayland": {
+      "title": "Mayland Labs",
+      "location": "Buenos Aires, ARG",
+      "description": "Part-time Full Stack Developer. Developed advanced frontend and backend features using React, NestJS, and PostgreSQL. Implemented complex business logic across modular backend services and interactive frontend components. Integrated Google Maps, OAuth, Google Analytics, and MercadoPago payment solutions.",
+      "date": "January 2022 – December 2023"
+    },
+    "henry": {
+      "title": "Henry Bootcamp",
+      "location": "Argentina, remote",
+      "description": "Full Stack Web Development intensive bootcamp where I learned the fundamentals of modern Full Stack development with React, Node.js, Express and PostgreSQL. Also learned about testing, best practices and learned how to work in a team with Scrum, Git and GitHub.",
+      "date": "April 2023 – September 2023"
+    },
+    "freecodecamp": {
+      "title": "FreeCodeCamp",
+      "location": "Argentina, remote",
+      "description": "Online platform where I earned certifications in JavaScript Algorithms and Data Structures, and Responsive Web Design.",
+      "date": "November 2022 – April 2023"
+    }
+  },
+  "projects": {
+    "pawdlink": {
+      "title": "Pawdlink",
+      "description": "Pawdlink is a social platform where users can find a sitter to take care of their pets."
+    },
+    "deaca": {
+      "title": "Deaca Olavarría",
+      "description": "The Olavarría guide where you'll find products and services, all in one place."
+    },
+    "spaceinvaders": {
+      "title": "Space Invaders",
+      "description": "This is a game developed using Bevy and Rust. It was my first game and I learned a lot about ECS, game loop and more."
+    },
+    "forgebytes": {
+      "title": "ForgeBytes",
+      "description": "This is the landing page for ForgeBytes."
+    },
+    "tubienestar": {
+      "title": "Tu Bienestar Masajes Olavarría",
+      "description": "This is a booking platform for a massage salon located in Olavarría, Buenos Aires, Argentina."
+    },
+    "padelink": {
+      "title": "Padelink",
+      "description": "This is a social media platform for a peddle club located in Buenos Aires C.A.B.A, Argentina."
+    },
+    "workitfy": {
+      "title": "Workitfy",
+      "description": "Workitfy is a social platform for remote workers."
+    },
+    "multicuotas": {
+      "title": "Multicuotas Tandíl",
+      "description": "An e-commerce for a client store located in Tandíl. User can search products, order and pay with MercadoPago"
+    },
+    "bellideportes": {
+      "title": "Belli Deportes",
+      "description": "An e-commerce for an sport store located in my city. User can search products, order and pay with MercadoPago"
+    }
+  }
+}

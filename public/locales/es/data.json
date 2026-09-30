@@ -1,0 +1,86 @@
+{
+  "links": {
+    "home": "Inicio",
+    "about": "Perfil",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "experiences": {
+    "deaca": {
+      "title": "deacá",
+      "location": "Olavarría, ARG",
+      "date": "Septiembre 2025 – Agosto 2026",
+      "description": "Desarrollo e implementación integral de una plataforma web interactiva enfocada en la centralización de comercios, turismo y eventos locales en Olavarría. Guía moderna e interactiva donde se pueden encontrar productos y servicios locales como también información turística, eventos y lugares para visitar en la ciudad. Tecnologías: React, NestJS, PostgreSQL, Docker. Integraciones: MercadoPago (Checkout/Pagos), Google Maps Platform (Maps, Places, Geocoding), Google OAuth. DevTools & AI Workflow: OpenCode con persistencia de contexto/conversaciones en base de datos dedicada, agentes autónomos y skills personalizadas. Responsabilidades y logros: Diseño e implementación de la interfaz en React y arquitectura de servicios backend en NestJS con flujo de navegación fluido; integración de geolocalización avanzada y MercadoPago para transacciones; configuración de workflows avanzados con OpenCode y base de datos dedicada para agilizar el ciclo de desarrollo; despliegue con Docker para homogenizar entornos y estabilidad mediante testing automatizado y pruebas de staging."
+    },
+    "forgebytes": {
+      "title": "ForgeBytes Lab",
+      "location": "Buenos Aires, ARG",
+      "description": "Desarrollador Full Stack Freelance (Fundador). Diseño, desarrollo y despliegue de aplicaciones web y móviles end-to-end utilizando React, NestJS, PostgreSQL y Docker. Administración de infraestructura propia en VPS, configurando Linux, SSH, Nginx y pipelines de CI/CD basados en Docker. Implementación de buenas prácticas de ciberseguridad y adopción de Coolify para simplificar la operación. También implemento modelos locales de IA para proveer soluciones modernas de chatbots para aplicaciones de clientes.",
+      "date": "Diciembre 2025 – Presente"
+    },
+    "biggertech": {
+      "title": "Bigger",
+      "location": "Remoto, Australia",
+      "description": "Desarrollo y mantenimiento de sistemas en producción utilizando React, NestJS, MySQL y TypeScript. Creación de aplicaciones móviles multiplataforma con React Native + Expo para Android e iOS, siendo el único responsable de la versión iOS. Integración de servicios externos como Stripe, Cybrid, AWS Cognito, AWS S3 y Auth0. Trabajo bajo arquitectura hexagonal y participación en el desarrollo de smart contracts con Rust y Soroban para Stellar Network.",
+      "date": "Diciembre 2023 – Noviembre 2025"
+    },
+    "mayland": {
+      "title": "Mayland Labs",
+      "location": "Buenos Aires, ARG",
+      "description": "Desarrollador Full Stack Part-Time. Desarrollo de funcionalidades avanzadas de frontend y backend con React, NestJS y PostgreSQL. Implementación de lógica de negocio compleja en servicios modulares y componentes interactivos. Integraciones con Google Maps, OAuth, Google Analytics y MercadoPago.",
+      "date": "Enero 2022 – Diciembre 2023"
+    },
+    "henry": {
+      "title": "Henry Bootcamp",
+      "location": "Argentina, remoto",
+      "description": "Bootcamp intensivo de Desarrollo Web Full Stack donde aprendí los fundamentos del desarrollo Full Stack moderno con React, Node.js, Express y PostgreSQL. También aprendí sobre testing, mejores prácticas y cómo trabajar en equipo con Scrum, Git y GitHub.",
+      "date": "Abril 2023 – Septiembre 2023"
+    },
+    "freecodecamp": {
+      "title": "FreeCodeCamp",
+      "location": "Argentina, remoto",
+      "description": "Plataforma en línea donde obtuve certificaciones en Algoritmos de JavaScript y Estructuras de Datos, y Diseño Web Responsivo.",
+      "date": "Noviembre 2022 – Abril 2023"
+    }
+  },
+  "projects": {
+    "pawdlink": {
+      "title": "Pawdlink",
+      "description": "Pawdlink es una plataforma social donde los usuarios pueden encontrar un cuidador para sus mascotas."
+    },
+    "deaca": {
+      "title": "Deaca Olavarría",
+      "description": "La guía de Olavarría donde encontrás productos y servicios, todo en un mismo lugar"
+    },
+    "spaceinvaders": {
+      "title": "Space Invaders",
+      "description": "Este es un juego desarrollado usando Bevy y Rust. Fue mi primer juego y aprendí mucho sobre ECS, game loop y más."
+    },
+    "forgebytes": {
+      "title": "ForgeBytes",
+      "description": "Esta es la página de inicio de ForgeBytes."
+    },
+    "tubienestar": {
+      "title": "Tu Bienestar Masajes Olavarría",
+      "description": "Esta es una plataforma de reservas para un salón de masajes ubicado en Olavarría, Buenos Aires, Argentina."
+    },
+    "padelink": {
+      "title": "Padelink",
+      "description": "Esta es una plataforma de redes sociales para un club de pádel ubicado en Buenos Aires C.A.B.A, Argentina."
+    },
+    "workitfy": {
+      "title": "Workitfy",
+      "description": "Workitfy es una plataforma social para trabajadores remotos."
+    },
+    "multicuotas": {
+      "title": "Multicuotas Tandíl",
+      "description": "Un e-commerce para una tienda cliente ubicada en Tandíl. Los usuarios pueden buscar productos, ordenar y pagar con MercadoPago"
+    },
+    "bellideportes": {
+      "title": "Belli Deportes",
+      "description": "Un e-commerce para una tienda de deportes ubicada en mi ciudad. Los usuarios pueden buscar productos, ordenar y pagar con MercadoPago"
+    }
+  }
+}

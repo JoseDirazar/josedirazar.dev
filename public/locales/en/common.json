@@ -1,0 +1,103 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to My Portfolio",
+    "subtitle": "Full Stack Developer",
+    "greeting": "Hello, I'm Jose.",
+    "role": "a Full Stack Developer",
+    "status": "currently running my own freelance business",
+    "recent": "Previously I worked at",
+    "building": "and now I build",
+    "sites": "web & mobile apps",
+    "focus": "for clients through my company",
+    "mobile": "ForgeBytes Lab"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a passionate developer with experience in web development.",
+    "education": "After studying 4 years",
+    "accounting": "Accounting at UNICEN",
+    "passion": "I decided to pursue my passion for programming and enroll in a coding bootcamp learning the current trends on the market to develop",
+    "fullstack": "full stack Apps",
+    "favorite": "My favorite part of programming",
+    "problem": "is the problem solving aspect. I",
+    "love": "love",
+    "feeling": "the feeling of finally figuring out a solution to a problem and learn more every day. My core stack is",
+    "frontend": "React and Next.js",
+    "backend": "Nest.js",
+    "rust": "I am also familiar with Rust and build smart contracts on Stellar network.",
+    "notCoding": "When I'm not coding",
+    "enjoy": "I enjoy researching new trending tecnologies and staying update in the",
+    "tech": "tech",
+    "scene": "scene. Currently I'm learning Bevy: a new fame engine writen in Rust, and learging how to build games. Please check out the next section",
+    "nextSection": "👇"
+  },
+  "projects": {
+    "title": "My Projects",
+    "view": "View Project"
+  },
+  "spaceinvaders": {
+    "title": "Space Invaders Game",
+    "instructions": "Use A and D keys to move and space to shoot",
+    "loading": "Loading game...",
+    "subtitle": "My first game project",
+    "description": "This tutorial taught me the basics of Bevy, from how to set up a project to using the ECS (Entity Component System), where entities relate to components and game logic is applied. I learned to move the player and enemies, render projectiles, and manage collisions between them. It was an excellent project to start familiarizing myself with Bevy.",
+    "visitSecond": "I invite you to visit my second",
+    "project": "project"
+  },
+  "platformer": {
+    "title": "Platformer Game",
+    "subtitle": "A game promise",
+    "instructions": "Use arrow keys to move, SPACE to jump, Z for light attack and V for heavy attack",
+    "description": "After learning the basics with Bevy, I felt the urge to create something more attractive, something that would really make people want to play and allow me to learn how to make a game that excites, like those I played as a child. I started with what I already knew: rendering a sprite on screen and applying what I learned in my first project to move the player, detect collisions, and make it possible to move around a map. At first it was overwhelming to know which path to follow to advance with the game's functionalities, but little by little priorities emerged, such as animating the character using texture atlases, iterating over sprites and displaying them on screen in an animated way.\n\nLater, I incorporated a physics system to simulate gravity and ensure that the map entities behaved as expected. Once that solid foundation was built, I started adding essential functionalities for a basic game: the enemy. Implementing it wasn't too difficult, but I realized that it didn't make much sense to have a player and an enemy if they couldn't attack each other. That's how I integrated a collision, health and damage system, which allowed me to dive much deeper into Bevy and Rust.\n\nThere's still a lot to do to achieve an interesting and fun game, but I think that, as a demo, it's a good example of my progress in learning game development.",
+    "visitSecond": "I invite you to visit my second",
+    "project": "project"
+  },
+  "games": {
+    "title": "My Games",
+    "view": "Play",
+    "link": "Take a look!",
+    "welcome": "Welcome to my games portfolio",
+    "description": "Check out my road map diving into game development with Bevy and Rust.",
+    "framework": "as a framework and game engine. Which was an interesting entry point to also learn about"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "direct": "Contact me directly at",
+    "or": "or through this form",
+    "success": "Email sent successfully!",
+    "error": "Error sending email",
+    "sending": "Sending..."
+  },
+  "experience": {
+    "title": "My experience",
+    "view": "Link",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "about": "About this website:",
+    "built": "built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting."
+  },
+
+  "skills": {
+    "sectionTitle": "My Skills",
+    "langueges": "Programming Languages",
+    "backend": "Backend Frameworks",
+    "frontend": "Frontend Frameworks",
+    "database": "Database",
+    "devops": "DevOps Technologies",
+    "testing": "Testing Technologies",
+    "integrations": "Third Party Integrations"
+  }
+}
