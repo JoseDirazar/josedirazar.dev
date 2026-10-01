@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsGithub, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
+import { HiExternalLink } from "react-icons/hi";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { BiggerLogo } from "@/components/portfolio/BiggerLogo";
@@ -115,10 +115,16 @@ export default function Intro() {
                 ? "/cv/Cv Jose Dirazar - Español.pdf"
                 : "/cv/Cv Jose Dirazar - English.pdf"
             }
-            download
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={
+              pathname.split("/").includes("es")
+                ? "Ver CV en Español (abre en nueva pestaña)"
+                : "View CV in English (opens in new tab)"
+            }
           >
             CV{" "}
-            <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
+            <HiExternalLink className="opacity-60 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>
         <div className="flex gap-4">

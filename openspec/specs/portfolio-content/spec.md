@@ -80,21 +80,25 @@ The system MUST render a contact form with email and message fields plus a submi
 - THEN email input, message textarea, and submit button are visible
 - AND clicking submit causes no network request
 
-### Requirement: Locale-Aware CV Download
+### Requirement: Locale-Aware CV View
 
-The system MUST expose a CV link that selects English PDF for English and Spanish PDF for Spanish.
+The system MUST expose a CV link that selects English PDF for English and Spanish PDF for Spanish, and opens the PDF in a new browser tab for inline viewing rather than forcing a download.
 
-#### Scenario: English locale downloads English CV
+#### Scenario: English locale opens English CV in new tab
 
 - GIVEN the visitor is on `/en/portfolio`
 - WHEN they click the CV link
-- THEN the browser receives a PDF whose filename ends with `English.pdf`
+- THEN a new browser tab opens
+- AND the new tab displays a PDF whose filename ends with `English.pdf`
+- AND no `Content-Disposition: attachment` header is sent for the PDF response
 
-#### Scenario: Spanish locale downloads Spanish CV
+#### Scenario: Spanish locale opens Spanish CV in new tab
 
 - GIVEN the visitor is on `/es/portfolio`
 - WHEN they click the CV link
-- THEN the browser receives a PDF whose filename ends with `Español.pdf`
+- THEN a new browser tab opens
+- AND the new tab displays a PDF whose filename ends with `Español.pdf`
+- AND no `Content-Disposition: attachment` header is sent for the PDF response
 
 ### Requirement: Sticky Navigation
 
