@@ -56,5 +56,12 @@
     "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "5.8.3",
     "vitest": "^2.1.8"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "react-vertical-timeline-component",
+      "unrs-resolver"
+    ]
   }
 }
