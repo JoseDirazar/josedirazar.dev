@@ -21,9 +21,9 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-28 scroll-mt-400 text-center sm:mb-0"
+      className="mb-28 w-full scroll-mt-400 text-center sm:mb-0"
     >
-      <WavyBackground containerClassName="w-screen">
+      <WavyBackground>
         <div className="pointer-events-none absolute inset-0 z-40 flex h-full flex-1 flex-col mask-radial-from-15% mask-radial-to-100%">
           <Image
             src="/assets/landing/Frame.svg"
