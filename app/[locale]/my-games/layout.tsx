@@ -14,7 +14,7 @@ export default function GameLayout({
       <div className="fixed hidden rounded lg:top-2 lg:right-2 lg:block">
         <LanguageSwitcher />
       </div>
-      <div className="fixed bottom-2 left-2 rounded bg-white drop-shadow-2xl lg:hidden dark:bg-primary">
+      <div className="fixed bottom-2 left-2 rounded bg-card drop-shadow-2xl lg:hidden">
         <LanguageSwitcher contentTop />
       </div>
       {children}

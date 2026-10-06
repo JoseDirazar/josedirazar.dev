@@ -54,8 +54,8 @@ export default function Experience() {
                 icon={item.icon}
               >
                 <h3 className="font-semibold capitalize">{item.title}</h3>
-                <p className="!mt-0 font-normal">{item.location}</p>
-                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                <p className="mt-0! font-normal">{item.location}</p>
+                <p className="mt-1! font-normal! text-muted-foreground">
                   {displayText}
                 </p>
                 {isLong && (
@@ -63,7 +63,7 @@ export default function Experience() {
                     type="button"
                     aria-expanded={isExpanded}
                     onClick={() => toggle(index)}
-                    className="mt-2 text-sm font-medium underline underline-offset-4 text-neutral-600 hover:text-neutral-900 dark:text-white/70 dark:hover:text-white"
+                    className="mt-2 text-sm font-medium text-muted-foreground underline underline-offset-4 hover:text-foreground"
                   >
                     {isExpanded
                       ? t("experience.showLess")
@@ -73,7 +73,7 @@ export default function Experience() {
                 <a
                   target="_blank"
                   href={item.url}
-                  className="!mt-1 flex w-fit items-center justify-center gap-2 rounded bg-neutral-700 px-4 py-2 text-sm font-semibold text-gray-300 hover:bg-neutral-400 hover:text-gray-950 md:text-base dark:bg-white/10 dark:text-white/90 dark:hover:bg-white/20 dark:hover:text-white"
+                  className="!mt-1 flex w-fit items-center justify-center gap-2 rounded bg-foreground/80 px-4 py-2 text-sm font-semibold text-background hover:bg-foreground/70 md:text-base dark:bg-white/10 dark:text-white/90 dark:hover:bg-white/20 dark:hover:text-white"
                 >
                   {t("experience.view")} <FaArrowCircleRight />
                 </a>

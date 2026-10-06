@@ -29,7 +29,7 @@ export default function SpaceInvadersPage() {
         <div className="mt-2 flex items-center justify-center gap-1">
           <p>{t("spaceinvaders.visitSecond")}</p>
           <Link
-            className="text-blue-500 underline"
+            className="text-primary underline"
             href={`/${locale}/my-games/platformer`}
           >
             {t("platformer.project")}

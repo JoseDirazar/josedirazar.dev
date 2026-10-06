@@ -43,7 +43,7 @@ export default function Contact() {
     >
       <SectionHeading>{t("contact.title")}</SectionHeading>
 
-      <p className="-mt-6 text-gray-700 dark:text-white/80">
+      <p className="-mt-6 text-muted-foreground">
         {t("contact.direct")}{" "}
         <a className="underline" href="mailto:jfdirazar@gmail.com">
           jfdirazar@gmail.com

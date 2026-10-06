@@ -16,8 +16,8 @@ export const instant = false;
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jose Dirazar | Portfolio",
-  description: "Jose Dirazar personal portfolio.",
+  title: "José Dirazar | Portfolio",
+  description: "José Dirazar personal portfolio.",
 };
 
 export function generateStaticParams() {
@@ -35,7 +35,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={dir(locale)} suppressHydrationWarning>
       <body
-        className={`${inter.className} relative bg-gray-50 text-gray-950 dark:bg-gray-900 dark:text-gray-50`}
+        className={`${inter.className} relative bg-background text-foreground`}
       >
         <ThemeContextProvider
           attribute="class"

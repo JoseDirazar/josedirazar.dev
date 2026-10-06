@@ -32,7 +32,7 @@ const fadeInAnimationVariants = {
 const SubDivider = () => {
   return (
     <motion.div
-      className="my-12 h-[2px] w-full max-w-lg rounded-full bg-gray-400 sm:block"
+      className="my-12 h-[2px] w-full max-w-lg rounded-full bg-muted-foreground/50 sm:block"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}
@@ -51,10 +51,10 @@ export default function Skills() {
     >
       <SectionHeading>{t("skills.sectionTitle")}</SectionHeading>
       <div className="mb-8 text-2xl font-semibold">{t("skills.langueges")}</div>
-      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-foreground">
         {languajes.map((skill, index) => (
           <motion.li
-            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-card px-5 py-3"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -71,10 +71,10 @@ export default function Skills() {
       </ul>
       <SubDivider />
       <div className="mb-8 text-2xl font-semibold">{t("skills.backend")}</div>
-      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-foreground">
         {backendSkills.map((skill, index) => (
           <motion.li
-            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-card px-5 py-3"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -91,10 +91,10 @@ export default function Skills() {
       </ul>
       <SubDivider />
       <div className="mb-8 text-2xl font-semibold">{t("skills.frontend")}</div>
-      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-foreground">
         {frontendSkills.map((skill, index) => (
           <motion.li
-            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-card px-5 py-3"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -111,10 +111,10 @@ export default function Skills() {
       </ul>
       <SubDivider />
       <div className="mb-8 text-2xl font-semibold">{t("skills.database")}</div>
-      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-foreground">
         {databaseSkills.map((skill, index) => (
           <motion.li
-            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-card px-5 py-3"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -131,10 +131,10 @@ export default function Skills() {
       </ul>
       <SubDivider />
       <div className="mb-8 text-2xl font-semibold">{t("skills.devops")}</div>
-      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-foreground">
         {devOpsSkills.map((skill, index) => (
           <motion.li
-            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-card px-5 py-3"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -151,10 +151,10 @@ export default function Skills() {
       </ul>
       <SubDivider />
       <div className="mb-8 text-2xl font-semibold">{t("skills.testing")}</div>
-      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-foreground">
         {testingSkills.map((skill, index) => (
           <motion.li
-            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-card px-5 py-3"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -173,10 +173,10 @@ export default function Skills() {
       <div className="mb-8 text-2xl font-semibold">
         {t("skills.integrations")}
       </div>
-      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex max-w-lg flex-wrap justify-center gap-2 text-lg text-foreground">
         {integrationSkills.map((skill, index) => (
           <motion.li
-            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="borderBlack flex flex-row items-center justify-center gap-2 rounded-xl bg-card px-5 py-3"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"

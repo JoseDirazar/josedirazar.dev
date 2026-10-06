@@ -20,7 +20,7 @@ export const LanguageSwitcher = ({ contentTop }: { contentTop?: boolean }) => {
   return (
     <div className="relative">
       <button
-        className="flex items-center space-x-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 focus:outline-none dark:text-gray-300 dark:hover:text-white"
+        className="flex items-center space-x-2 px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground focus:outline-none"
         onClick={() => setMenuOpen((prev) => !prev)}
       >
         <span>
@@ -42,7 +42,7 @@ export const LanguageSwitcher = ({ contentTop }: { contentTop?: boolean }) => {
         </svg>
       </button>
       <div
-        className={`absolute z-[9999] px-1 ring-2 ring-neutral-300 dark:ring-neutral-700 ${contentTop ? "bottom-full left-0 origin-top" : "right-0"} mt-2 w-40 rounded-md bg-white shadow-lg ring-1 ring-black dark:bg-gray-800 ${
+        className={`absolute z-[9999] px-1 ring-2 ring-border ${contentTop ? "bottom-full left-0 origin-top" : "right-0"} mt-2 w-40 rounded-md bg-card shadow-lg ring-1 ring-border ${
           menuOpen ? "block" : "hidden"
         }`}
       >
@@ -58,8 +58,8 @@ export const LanguageSwitcher = ({ contentTop }: { contentTop?: boolean }) => {
               href={buildPath(language.code)}
               className={`block w-full rounded px-4 py-2 text-left text-sm ${
                 currentLang === language.code
-                  ? "bg-gray-100 text-gray-900 dark:bg-gray-700 dark:text-white"
-                  : "text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700"
+                  ? "bg-muted text-foreground"
+                  : "text-muted-foreground hover:bg-muted"
               }`}
               role="menuitem"
             >

@@ -22,9 +22,9 @@ export default function BackButton({ locale, href }: BackButtonProps) {
         },
       }}
       onClick={() => router.push(`/${locale}/${href}`)}
-      className="fixed top-4 left-4 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-black/20 backdrop-blur-sm transition-all hover:opacity-50 dark:bg-white/10"
+      className="fixed top-4 left-4 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-foreground/20 backdrop-blur-sm transition-all hover:opacity-50"
     >
-      <IoArrowBack size={24} className="text-white" />
+      <IoArrowBack size={24} className="text-background" />
     </motion.button>
   );
 }

@@ -8,34 +8,12 @@
   "hero": {
     "title": "Welcome to My Portfolio",
     "subtitle": "Full Stack Developer",
-    "greeting": "Hello, I'm Jose.",
-    "role": "a Full Stack Developer",
-    "status": "currently running my own freelance business",
-    "recent": "Previously I worked at",
-    "building": "and now I build",
-    "sites": "web & mobile apps",
-    "focus": "for clients through my company",
-    "mobile": "ForgeBytes Lab"
+    "intro": "Hi, my name is José. I'm a Full Stack developer currently working for myself. I build web and mobile solutions for clients, from static sites to complex platforms and all their infrastructure."
   },
   "about": {
     "title": "About Me",
-    "description": "I am a passionate developer with experience in web development.",
-    "education": "After studying 4 years",
-    "accounting": "Accounting at UNICEN",
-    "passion": "I decided to pursue my passion for programming and enroll in a coding bootcamp learning the current trends on the market to develop",
-    "fullstack": "full stack Apps",
-    "favorite": "My favorite part of programming",
-    "problem": "is the problem solving aspect. I",
-    "love": "love",
-    "feeling": "the feeling of finally figuring out a solution to a problem and learn more every day. My core stack is",
-    "frontend": "React and Next.js",
-    "backend": "Nest.js",
-    "rust": "I am also familiar with Rust and build smart contracts on Stellar network.",
-    "notCoding": "When I'm not coding",
-    "enjoy": "I enjoy researching new trending tecnologies and staying update in the",
-    "tech": "tech",
-    "scene": "scene. Currently I'm learning Bevy: a new fame engine writen in Rust, and learging how to build games. Please check out the next section",
-    "nextSection": "👇"
+    "paragraph1": "In 2022 I decided to pursue my passion for programming, which led me to new experiences, meeting colleagues, and learning the current market technologies to develop web and mobile applications. Since then I have stayed on this continuous and ever-changing learning path. My main stack is React and Nest.js for web apps, and React Native for Android and iOS, alongside a modern, agentic AI-powered workspace.",
+    "paragraph2": "When I'm not coding, I enjoy researching new technologies and staying up to date with the latest news. I'm currently learning Bevy: a new game engine written in Rust, and learning to build games in my free time. Please check out the next section 👇."
   },
   "projects": {
     "title": "My Projects",

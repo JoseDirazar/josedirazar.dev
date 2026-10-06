@@ -140,6 +140,7 @@ export const getTranslatedData = (
       tags: ["Vite.js", "Nest.js", "PostgreSQL", "Docker"],
       imageUrl: deAcaFarmaciasDeTurno,
       url: "https://deacaolavarria.com",
+      titleFontClass: "font-nueva font-bold",
     },
     {
       title: t("projects.pawdlink.title", { ns: "data" }),
@@ -153,6 +154,7 @@ export const getTranslatedData = (
       ],
       imageUrl: pawdlink,
       url: "https://pawdlink-web.forgebyteslab.com",
+      titleFontClass: "font-monserrat font-extrabold italic",
     },
     {
       title: t("projects.forgebytes.title", { ns: "data" }),
@@ -160,6 +162,7 @@ export const getTranslatedData = (
       tags: ["React", "TypeScript", "Vite.js", "TailwindCss"],
       imageUrl: forgebyteslab,
       url: "https://forgebyteslab.com/",
+      titleFontClass: "font-nasalization",
     },
     {
       title: t("projects.tubienestar.title", { ns: "data" }),
@@ -174,6 +177,7 @@ export const getTranslatedData = (
       ],
       imageUrl: tuBienestar,
       url: "https://tu-bienestar.forgebyteslab.com/",
+      titleFontClass: "font-lobster",
     },
     {
       title: t("projects.padelink.title", { ns: "data" }),
@@ -234,6 +238,7 @@ export const getTranslatedData = (
       ],
       imageUrl: BelliDeportes,
       url: "https://bellideportes.forgebyteslab.com/",
+      titleFontClass: "font-orbitron font-extrabold tracking-wide",
     },
   ],
 

@@ -12,7 +12,7 @@ export default function SpaceInvaders() {
         <iframe
           ref={gameRef}
           src="/space-invaders/index.html"
-          className="flex h-[530px] w-[530px] items-center justify-center rounded-md bg-white dark:bg-black"
+          className="flex h-[530px] w-[530px] items-center justify-center rounded-md bg-background"
         />
       </div>
     </div>

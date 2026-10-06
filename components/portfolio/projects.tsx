@@ -20,6 +20,7 @@ export default function Projects({
     tags: string[];
     imageUrl: StaticImageData;
     url: string;
+    titleFontClass?: string;
   }[];
   projectTitle: string;
   locale?: string;

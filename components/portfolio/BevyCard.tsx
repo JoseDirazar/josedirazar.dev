@@ -12,12 +12,12 @@ export default function BevyCard() {
   const [_, locale] = pathname.split("/");
 
   return (
-    <div className="group relative mb-15 rounded-xl p-6 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl dark:bg-gray-800">
+    <div className="group relative mb-15 rounded-xl p-6 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl bg-card">
       <h3 className="mb-4 text-2xl font-bold">{t("games.title")}</h3>
       <p className="mb-6 w-[50%]">{t("games.description")}</p>
       <Link
         href={`/${locale}/my-games`}
-        className="inline-block rounded-md px-6 py-3 ring-2 ring-gray-300 transition-all duration-300 hover:scale-105 hover:bg-gray-300/90 dark:ring-indigo-700 hover:dark:bg-primary/90"
+        className="inline-block rounded-md px-6 py-3 ring-2 ring-border transition-all duration-300 hover:scale-105 hover:bg-accent dark:hover:bg-primary/90"
       >
         {t("games.link")}
       </Link>

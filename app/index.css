@@ -11,18 +11,66 @@
       from 180deg at 50% 50%,
       var(--tw-gradient-stops)
     );
+
+  --font-lobster: "Lobster", sans-serif;
+  --font-josefin: "Josefin Sans", sans-serif;
+  --font-monserrat: "Monserrat Italic", sans-serif;
+  --font-orbitron: "Orbitron Extrabold", sans-serif;
+  --font-nueva: "Nueva Std", sans-serif;
+  --font-nasalization: "Nasalization", sans-serif;
+}
+
+@font-face {
+  font-family: "Nueva Std";
+  src: url("/assets/fonts/NuevaStd/NuevaStd-Bold.otf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Orbitron Extrabold";
+  src: url("/assets/fonts/Orbitron/static/Orbitron-ExtraBold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Monserrat Italic";
+  src: url("/assets/fonts/Montserrat/static/Montserrat-ExtraBoldItalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/assets/fonts/Josefin_Sans/static/JosefinSans-BoldItalic.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("/assets/fonts/Lobster-Regular.ttf") format("truetype");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nasalization";
+  src: url("/assets/fonts/nasalization/Nasalization Rg.otf") format("truetype");
+  font-weight: regular;
+  font-style: normal;
 }
 
 html {
-  --line-color: #e5e7eb;
-}
-
-html.dark {
-  --line-color: rgba(255, 255, 255, 0.2);
+  --line-color: var(--border);
 }
 
 .borderBlack {
-  @apply border border-black/10;
+  @apply border border-border;
 }
 
 #coolify {
@@ -125,7 +173,7 @@ html.dark {
   --muted: oklch(0.269 0 0);
   --muted-foreground: oklch(0.708 0 0);
   --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
@@ -155,27 +203,27 @@ html.dark {
 }
 
 .theme-experience .vertical-timeline-element-content {
-  background: #f3f4f6 !important;
+  background: var(--muted) !important;
   box-shadow: none !important;
-  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  border: 1px solid var(--border) !important;
   text-align: left !important;
   padding: 1.3rem 2rem !important;
 }
 .dark .theme-experience .vertical-timeline-element-content {
-  background: rgba(255, 255, 255, 0.05) !important;
+  background: var(--card) !important;
 }
 
 .theme-experience .vertical-timeline-element-content-arrow {
-  border-right: 0.4rem solid #9ca3af !important;
+  border-right: 0.4rem solid var(--muted-foreground) !important;
 }
 .dark .theme-experience .vertical-timeline-element-content-arrow {
-  border-right: 0.4rem solid rgba(255, 255, 255, 0.5) !important;
+  border-right: 0.4rem solid var(--muted-foreground) !important;
 }
 
 .theme-experience .vertical-timeline-element-icon {
-  background: white !important;
+  background: var(--card) !important;
   font-size: 1.5rem !important;
 }
 .dark .theme-experience .vertical-timeline-element-icon {
-  background: rgba(255, 255, 255, 0.15) !important;
+  background: var(--card) !important;
 }

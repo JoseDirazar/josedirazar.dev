@@ -8,34 +8,12 @@
   "hero": {
     "title": "Bienvenido a Mi Portafolio",
     "subtitle": "Desarrollador Full Stack",
-    "greeting": "Hola, soy Jose.",
-    "role": "Desarrollador Full Stack",
-    "status": "actualmente manejando mi propio negocio freelance",
-    "recent": "Anteriormente trabajé en",
-    "building": "y ahora construyo",
-    "sites": "apps web y móviles",
-    "focus": "para clientes a través de mi empresa",
-    "mobile": "ForgeBytes Lab"
+    "intro": "Hola, me llamo José. Soy desarrollador Full Stack actualmente trabajando por cuenta propia. Me dedico a construir soluciones web y móviles para clientes, desde páginas estáticas hasta plataformas complejas y toda su infraestructura."
   },
   "about": {
     "title": "Sobre Mí",
-    "description": "Soy un desarrollador apasionado con experiencia en desarrollo web.",
-    "education": "Después de estudiar 4 años",
-    "accounting": "Contabilidad en UNICEN",
-    "passion": "decidí perseguir mi pasión por la programación y me inscribí en un bootcamp de programación aprendiendo las tendencias actuales del mercado para desarrollar",
-    "fullstack": "aplicaciones full stack",
-    "favorite": "Mi parte favorita de la programación",
-    "problem": "es el aspecto de resolución de problemas. Me",
-    "love": "encanta",
-    "feeling": "la sensación de finalmente encontrar una solución a un problema y aprender más cada día. Mi stack principal es",
-    "frontend": "React y Next.js",
-    "backend": "Nest.js",
-    "rust": "También estoy familiarizado con Rust y construyo contratos inteligentes en la red Stellar.",
-    "notCoding": "Cuando no estoy programando",
-    "enjoy": "disfruto investigando nuevas tecnologías y manteniéndome actualizado en la",
-    "tech": "escena tecnológica",
-    "scene": ". Actualmente estoy aprendiendo Bevy: un nuevo motor de juegos escrito en Rust, y aprendiendo a construir juegos. Por favor revisa la siguiente sección",
-    "nextSection": "👇"
+    "paragraph1": "En 2022 decidí perseguir mi pasión por la programación, la cual me llevó a vivir experiencias, conocer colegas y aprender las tecnologías actuales del mercado para desarrollar aplicaciones web y móviles. Desde aquel entonces continúo este camino de aprendizaje continuo y cambiante. Mi stack principal es React y Nest.js para web apps y React Native para desarrollar en Android y iOS, junto a un entorno de trabajo moderno y agéntico con IA.",
+    "paragraph2": "Cuando no estoy programando, disfruto investigando nuevas tecnologías y manteniéndome actualizado con las últimas novedades. Actualmente estoy aprendiendo Bevy: un nuevo motor de juegos escrito en Rust, y aprendiendo a construir juegos en mi tiempo libre. Por favor revisa la siguiente sección 👇."
   },
   "projects": {
     "title": "Mis Proyectos",

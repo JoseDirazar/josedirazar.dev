@@ -6,9 +6,9 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="mb-10 px-4 text-center text-gray-500">
+    <footer className="mb-10 px-4 text-center text-muted-foreground">
       <small className="mb-2 block text-xs">
-        &copy; {new Date().getFullYear()} Jose Dirazar. {t("footer.rights")}
+        &copy; {new Date().getFullYear()} José Dirazar. {t("footer.rights")}
       </small>
       <p className="text-xs">
         <span className="font-semibold">{t("footer.about")}</span>{" "}

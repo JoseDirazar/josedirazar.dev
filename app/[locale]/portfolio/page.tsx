@@ -31,7 +31,7 @@ export default async function Home({
       locale={locale}
       resources={resources}
     >
-      <main className="mt-30 flex flex-col items-center px-4">
+      <main className="mt-30 flex flex-col items-center">
         <PortfolioHeader />
         <Intro />
         <SectionDivider />

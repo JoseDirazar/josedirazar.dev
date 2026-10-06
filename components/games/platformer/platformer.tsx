@@ -12,7 +12,7 @@ export default function Platformer() {
         <iframe
           ref={gameRef}
           src="/platformer/index.html"
-          className="flex h-[793px] w-[1040px] items-center justify-center rounded-md bg-white dark:bg-black"
+          className="flex h-[793px] w-[1040px] items-center justify-center rounded-md bg-background"
         />
       </div>
     </div>
