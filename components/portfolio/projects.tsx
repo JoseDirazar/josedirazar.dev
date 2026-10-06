@@ -30,7 +30,7 @@ export default function Projects({
   const { t } = useTranslation();
 
   return (
-    <section ref={ref} id="projects" className="mb-28 scroll-mt-28">
+    <section ref={ref} id="projects" className="mx-3 mb-28 scroll-mt-28">
       <SectionHeading>{projectTitle}</SectionHeading>
       <div>
         {projectsData.map((project, index) => (

@@ -35,7 +35,11 @@ export default function Experience() {
   };
 
   return (
-    <section id="experience" ref={ref} className="mb-28 scroll-mt-28 sm:mb-2">
+    <section
+      id="experience"
+      ref={ref}
+      className="mx-3 mb-28 scroll-mt-28 sm:mb-2"
+    >
       <SectionHeading>{t("experience.title", { ns: "data" })}</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => {

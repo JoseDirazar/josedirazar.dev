@@ -34,6 +34,7 @@ export default async function Home({
       <main className="mt-30 flex flex-col items-center">
         <PortfolioHeader />
         <Intro />
+
         <SectionDivider />
         <About />
         <SectionDivider />

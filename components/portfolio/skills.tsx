@@ -47,7 +47,7 @@ export default function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="mb-28 flex max-w-[53rem] scroll-mt-28 flex-col items-center justify-center text-center sm:mb-2"
+      className="mx-3 mb-28 flex max-w-[53rem] scroll-mt-28 flex-col items-center justify-center text-center sm:mb-2"
     >
       <SectionHeading>{t("skills.sectionTitle")}</SectionHeading>
       <div className="mb-8 text-2xl font-semibold">{t("skills.langueges")}</div>
